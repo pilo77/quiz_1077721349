@@ -12,7 +12,7 @@ import DepartamentoPage from '@/views/DepartamentoPage.vue';
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    redirect: "/pais",
+    redirect: "/home",
   },
   {
     path: "/home",

@@ -17,8 +17,8 @@
         <div id="login-container">  
           <div id="login-form">
             <InputComponent id="id" name="id" type="hidden"/>
-            <InputComponent id="codigo" name="codigo" label="Código: " />
-            <InputComponent id="dane" name="dane" label="Dane: " />
+            <InputComponent id="codigoDane" name="codigoDAne" label="Código Dane: " />
+            
             <InputComponent id="nombre" name="nombre" label="nombre: " />
             
             <InputComponent type="number" id="stock" name="stock" label="Stock: " disabled="disabled" />

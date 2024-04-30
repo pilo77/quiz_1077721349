@@ -7,20 +7,30 @@
     </ion-header>
 
     <ion-content>
-      <br>
+      <br />
       <div id="container">
         <strong><a href="/cliente">Ir a Clientes</a></strong>
-        <br>
+        <br />
         <strong><a href="/producto">Ir a productos</a></strong>
-
+        <br />
+        <strong><a href="/pais">Ir a pais</a></strong>
+        <br />
+        <strong><a href="/ciudad">Ir a ciudad</a></strong>
+        <br />
+        <strong><a href="/departamento">Ir a departamento</a></strong>
       </div>
-
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/vue";
 </script>
 
 <style scoped></style>
