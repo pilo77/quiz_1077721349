@@ -6,42 +6,55 @@ import LoginPage from '../views/LoginPage.vue'
 import DasboardPage from '../views/DasboardPage.vue'
 import ProductoPage from '@/views/ProductoPage.vue';
 import PaisPage from '@/views/PaisPage.vue';
+import CiudadPage from '@/views/CiudadPage.vue';
+import DepartamentoPage from '@/views/DepartamentoPage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
-    redirect: '/pais'
+    path: "/",
+    redirect: "/pais",
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: HomePage
-  },{
-    path: '/cliente',
-    name: 'Cliente',
-    component: ClientePage
+    path: "/home",
+    name: "Home",
+    component: HomePage,
   },
   {
-    path: '/login',
-    name: 'Login',
-    component: LoginPage
+    path: "/cliente",
+    name: "Cliente",
+    component: ClientePage,
   },
   {
-    path: '/dashboard',
-    name: 'Dashboard',
-    component: DasboardPage
+    path: "/login",
+    name: "Login",
+    component: LoginPage,
   },
   {
-    path: '/producto',
-    name: 'Producto',
-    component: ProductoPage
+    path: "/dashboard",
+    name: "Dashboard",
+    component: DasboardPage,
   },
-   {
-    path: '/pais',
-    name: 'Pais',
-    component: PaisPage
+  {
+    path: "/producto",
+    name: "Producto",
+    component: ProductoPage,
+  },
+  {
+    path: "/pais",
+    name: "Pais",
+    component: PaisPage,
+  },
+  {
+    path: "/ciudad",
+    name: "Ciudad",
+    component: CiudadPage,
+  },
+  {
+    path: "/departamento",
+    name: "Departamento",
+    component: DepartamentoPage,
   }
-]
+];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

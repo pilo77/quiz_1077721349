@@ -22,7 +22,20 @@
           </div>         
         </div>
       </ion-content>
+      <ion-content>
+      <br>
+      <div id="container">
+        <strong><a href="/pais">Ir a pais</a></strong>
+        <br>
+        <strong><a href="/ciudad">Ir a ciudad</a></strong>
+        <br>
+        <strong><a href="/departamento">Ir a departamento</a></strong>
+
+      </div>
+
+    </ion-content>
     </ion-page>
+    
   </template>
   
   <script setup lang="ts">
