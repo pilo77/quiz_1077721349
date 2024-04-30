@@ -2,8 +2,16 @@
     <ion-page>
       <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-title>Prodcuto</ion-title>
+          <ion-title>Datos</ion-title>
         </ion-toolbar>
+          <div id="container">
+        <strong><a href="/pais">Ir a pais</a></strong>
+        <br>
+        <strong><a href="/ciudad">Ir a ciudad</a></strong>
+        <br>
+        <strong><a href="/departamento">Ir a departamento</a></strong>
+
+      </div>
       </ion-header>  
       <ion-content>       
         <div id="login-container">  
@@ -24,14 +32,7 @@
       </ion-content>
       <ion-content>
       <br>
-      <div id="container">
-        <strong><a href="/pais">Ir a pais</a></strong>
-        <br>
-        <strong><a href="/ciudad">Ir a ciudad</a></strong>
-        <br>
-        <strong><a href="/departamento">Ir a departamento</a></strong>
-
-      </div>
+    
 
     </ion-content>
     </ion-page>

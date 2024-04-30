@@ -1,4 +1,9 @@
 <template>
+ <ion-header :translucent="true">
+        <ion-toolbar>
+          <ion-title>Ciudad</ion-title>
+        </ion-toolbar>
+      </ion-header>  
     <DatosComponent></DatosComponent>
   </template>
   
