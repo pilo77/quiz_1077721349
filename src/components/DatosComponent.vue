@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <NavBarComponent></NavBarComponent>
-    
+
     <ion-content>
       <div id="login-container">
         <div id="login-form">
@@ -46,7 +46,6 @@ import {
 import InputComponent from "@/components/InputComponent.vue";
 import CrudButtonComponent from "@/components/CrudButtonComponent.vue";
 import NavBarComponent from "./NavBarComponent.vue";
-
 </script>
 
 <style scoped src="../theme/container.css"></style>

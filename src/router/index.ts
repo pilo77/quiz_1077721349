@@ -9,6 +9,9 @@ import PaisPage from '@/views/PaisPage.vue';
 import CiudadPage from '@/views/CiudadPage.vue';
 import DepartamentoPage from '@/views/DepartamentoPage.vue';
 
+import Estudiantepage from '@/views/Estudiantepage.vue';
+import EmpledoPage from '@/views/EmpledoPage.vue';
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
@@ -53,7 +56,17 @@ const routes: Array<RouteRecordRaw> = [
     path: "/departamento",
     name: "Departamento",
     component: DepartamentoPage,
-  }
+  },
+  {
+    path: "/empleado",
+    name: "Empleado",
+    component: EmpledoPage,
+  },
+  {
+    path: "/estudiante",
+    name: "Estudiante",
+    component: Estudiantepage,
+  },
 ];
 
 const router = createRouter({

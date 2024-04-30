@@ -9,6 +9,7 @@
             <InputComponent id="primerNombre" name="primerNombre" label="Primer Nombre:  " />
             
             <InputComponent id="segundoNombre" name="segundoNombre" label="Segundo Nombre: " />
+
             <InputComponent id="primerApellido" name="primerApellido" label="Primer Apellido:  " />
             
             <InputComponent id="segundoApellido" name="segundoApellido" label="Segundo Apellido: " />
@@ -26,17 +27,13 @@
           </div>         
         </div>
       </ion-content>
-      <ion-content>
-      <br>
-    
-
-    </ion-content>
+      
     </ion-page>
     
   </template>
   
   <script setup lang="ts">
-  import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+  import { IonContent, IonPage } from '@ionic/vue';
   import InputComponent from '@/components/InputComponent.vue';
   import CrudButtonComponent from '@/components/CrudButtonComponent.vue';
   import NavBarComponent from './NavBarComponent.vue';

@@ -14,6 +14,11 @@
         <strong><a href="/ciudad">Ir a ciudad</a></strong>
         <br />
         <strong><a href="/departamento">Ir a departamento</a></strong>
+        <br />
+        <strong><a href="/empleado">Ir a empleado</a></strong>
+          <br />
+        <strong><a href="/estudiante">Ir a estudiante</a></strong>
+        
       </div>
     </ion-header>
 
@@ -22,9 +27,9 @@
 
 <script setup lang="ts">
 import {
-  IonContent,
+  
   IonHeader,
-  IonPage,
+  
   IonTitle,
   IonToolbar,
 } from "@ionic/vue";
