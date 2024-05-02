@@ -18,7 +18,7 @@
 
             <InputComponent type="number" id="Documento" name="Documento" label="Documento: " />
             
-            <InputComponent type="number" id="stock" name="stock" label="Stock: " disabled="disabled" />
+            
           </div>
   
           <div> 

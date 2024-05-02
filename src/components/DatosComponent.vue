@@ -14,13 +14,7 @@
 
           <InputComponent id="nombre" name="nombre" label="nombre: " />
 
-          <InputComponent
-            type="number"
-            id="stock"
-            name="stock"
-            label="Stock: "
-            disabled="disabled"
-          />
+         
         </div>
 
         <div>
