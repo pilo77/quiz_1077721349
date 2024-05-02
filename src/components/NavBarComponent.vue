@@ -18,7 +18,7 @@
           <br />
         <strong><a href="/estudiante">Ir a estudiante</a></strong>
         <br />
-        <strong><a href="/cliente">Ir a Clientes</a></strong>
+        <strong><a href="/cliente">Ir a Cliente</a></strong>
         
         
       </div>

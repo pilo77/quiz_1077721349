@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-title>Estudiante</ion-title>
+          <ion-title>Estudiantee</ion-title>
         </ion-toolbar>
       </ion-header> 
     <PersonaComponent></PersonaComponent>
