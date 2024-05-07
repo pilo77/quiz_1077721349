@@ -5,11 +5,17 @@ import ClientePage from '../views/ClientePage.vue'
 import LoginPage from '../views/LoginPage.vue'
 import DasboardPage from '../views/DasboardPage.vue'
 import ProductoPage from '@/views/ProductoPage.vue';
+import ProvedorPage from '@/views/ProvedorPage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/provedor'
+  },
+  {
+    path: '/provedor',
+    name: 'Provedor',
+    component: ProvedorPage
   },
   {
     path: '/home',

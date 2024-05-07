@@ -1,9 +1,11 @@
 package com.corhuila.shoppingcar.Document;
 
 
-import nonapi.io.github.classgraph.json.Id;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
+
+import java.time.LocalDateTime;
 
 @Document(collection = "cliente")
 public class Cliente {
@@ -21,6 +23,21 @@ public class Cliente {
     private String metodoPago;
     @Field
     private String direccion;
+    @Field
+    private LocalDateTime deletedAt;
+
+    public Cliente() {
+    }
+
+    public Cliente(String id, String tipoDocumento, String documento, String nombre, String metodoPago, String direccion, LocalDateTime deletedAt) {
+        this.id = id;
+        this.tipoDocumento = tipoDocumento;
+        this.documento = documento;
+        this.nombre = nombre;
+        this.metodoPago = metodoPago;
+        this.direccion = direccion;
+        this.deletedAt = deletedAt;
+    }
 
     public String getId() {
         return id;
@@ -68,5 +85,13 @@ public class Cliente {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public LocalDateTime getDeletedAt() {
+        return deletedAt;
+    }
+
+    public void setDeletedAt(LocalDateTime deletedAt) {
+        this.deletedAt = deletedAt;
     }
 }

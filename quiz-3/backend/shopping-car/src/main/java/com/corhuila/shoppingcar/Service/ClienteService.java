@@ -6,6 +6,7 @@ import com.corhuila.shoppingcar.IService.IClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
@@ -63,8 +64,8 @@ public class ClienteService implements IClienteService {
         //Cargar nuevo objeto
         if (!ps.isEmpty()){
             Cliente clienteUpdate = ps.get();
-            //Reportar fecha de eliminación
-            //clienteUpdate.setNombre(cliente.getNombre());
+            cliente.setDeletedAt(LocalDateTime.now());
+            clienteUpdate.setNombre(cliente.getNombre());
             //Actualizar el objeto cliente
             repository.save(clienteUpdate);
         }else{
